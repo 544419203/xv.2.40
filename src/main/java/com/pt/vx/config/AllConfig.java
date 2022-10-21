@@ -77,7 +77,7 @@ public class AllConfig {
                 new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 new BirthDay(1999,8,11,false,false),
                 new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false),
+                new BirthDay(2020,7,8,true,false)
         ));
         
         
@@ -90,7 +90,7 @@ public class AllConfig {
                 new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 new BirthDay(1999,8,11,false,false),
                 new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false),
+                new BirthDay(2020,7,8,true,false)
         ));
 
 
