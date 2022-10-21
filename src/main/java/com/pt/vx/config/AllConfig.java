@@ -76,11 +76,21 @@ public class AllConfig {
                 "菏泽", //这个人在的城市
                 new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
         ));
+        
+        
+        userList.add(getUser(
+                "oCH2_6lZmdtSBZkCvK0qO0KBCuC8", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "hxuc9CP5rec_TA7pU6qDOEoowNOgqT24GjJoxQvsmHY", //要给这个人发送的模板ID
+                "灿灿", //咋称呼这个人
+                "山东省菏泽市东明县", //这个人的详细地址
+                "菏泽", //这个人在的城市
+                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+        ));
 
 
 
     }
-
+ 
     public static final List<User> userList = new ArrayList<>();
     static {
         init();
