@@ -70,11 +70,11 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
                 "oCH2_6muT7XkHHMKXjuVn5oO64uA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "6WkhQ9E5uIZ7lvSeUzUH6bTkHDq-XknD7mF-8qVlEiI", //要给这个人发送的模板ID
+                "z6h9Q2Wr-s0VFopv8BV_Qw2fNqC6OaVQJbfVCoH2X94", //要给这个人发送的模板ID
                 "毕浩然", //咋称呼这个人
                 "山东省菏泽市牡丹区", //这个人的详细地址
                 "菏泽", //这个人在的城市
-                new BirthDay(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new open_randoms(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 //new newyear(2022,1,1,false,true)
                 //new BirthDay(2020,7,8,true,true),
                 //new BirthDay(2020,7,8,true,false)
