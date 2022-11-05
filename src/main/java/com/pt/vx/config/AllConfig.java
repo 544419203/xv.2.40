@@ -74,7 +74,7 @@ public class AllConfig {
                 "毕浩然", //咋称呼这个人
                 "山东省菏泽市牡丹区", //这个人的详细地址
                 "菏泽", //这个人在的城市
-                new Birthday(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 //new BirthDay(1999,8,11,false,false),
                 //new BirthDay(2020,7,8,true,true),
                 //new BirthDay(2020,7,8,true,false)
