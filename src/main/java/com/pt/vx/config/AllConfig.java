@@ -70,7 +70,7 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
                 "oCH2_6muT7XkHHMKXjuVn5oO64uA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "coxJsmrb35AF-A2KRrGE_P9TN1q7i2GFhh9Jxb74qB0", //要给这个人发送的模板ID
+                "-KMw6jd_kY5uLIK3K5L2T9cYgcj1nZUzbPpnUtBU9Gg", //要给这个人发送的模板ID
                 "毕浩然", //咋称呼这个人
                 "山东省菏泽市牡丹区", //这个人的详细地址
                 "菏泽", //这个人在的城市
