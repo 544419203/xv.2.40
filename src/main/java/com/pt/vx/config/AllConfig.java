@@ -83,7 +83,7 @@ public class AllConfig {
         
       //  userList.add(getUser(
        //         "oCH2_6iy8HNY0cp0xl46l8PQxuZI", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-      //          "	X_vphQZFKovVD2zSJJczPfeRUoLVcyF3yc1sSHE4ga4", //要给这个人发送的模板ID
+      //          "nYZXwthzRvppobNVlAC-a9tdZMHXZI3w-rJj1PAtTn0", //要给这个人发送的模板ID
       //          "丫丫", //咋称呼这个人
       //          "山东济南市高新区", //这个人的详细地址
       //          "济南", //这个人在的城市
