@@ -94,6 +94,19 @@ public class AllConfig {
         ));
         
         
+        userList.add(getUser(
+                "oCH2_6i59qeCCBc9UHKe27-N4tsc", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "XvAkQexN0u1cAJkuK41AtBrMesjVikr-7TPQ0_mmU7Q", //要给这个人发送的模板ID
+                "明明", //咋称呼这个人
+                "山东济南市唐冶区", //这个人的详细地址
+                "济南", //这个人在的城市
+                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(1999,8,11,false,false),
+                new BirthDay(2020,7,8,true,true),
+                new BirthDay(2020,7,8,true,false)
+        ));
+        
+        
         
         userList.add(getUser(
                 "oCH2_6gOe_UF5KKU0D-8u069uXuE", //扫码关注你的测试号以后，测试平台会出现TA的微信号
