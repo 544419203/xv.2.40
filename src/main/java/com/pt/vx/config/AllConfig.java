@@ -68,24 +68,13 @@ public class AllConfig {
         //要计算几个日期，就写几个new BirthDay,第一个在模板中是{{birthDay.DATA}}，第二个是{{birthDay1.DATA}}，第三个是{{birthDay2.DATA}}以此类推
         //  注意：日期里面的数字，填正常的数字就行了.比如1就是1，不要填01
         //  注意：每个用户信息的最后一项不需要加逗号！！！
-        userList.add(getUser(
-                "oCH2_6muT7XkHHMKXjuVn5oO64uA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "-KMw6jd_kY5uLIK3K5L2T9cYgcj1nZUzbPpnUtBU9Gg", //要给这个人发送的模板ID
-                "毕浩然", //咋称呼这个人
-                "山东省菏泽市牡丹区", //这个人的详细地址
-                "菏泽", //这个人在的城市
-                new BirthDay(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                //new newyear(2022,1,1,false,true)
-                //new BirthDay(2020,7,8,true,true),
-                //new BirthDay(2020,7,8,true,false)
-        ));
-        
+
         
 //         userList.add(getUser(
 //                 "oCH2_6pOADI_2a5DnYyrQEFD-5gU", //扫码关注你的测试号以后，测试平台会出现TA的微信号
 //                 "-KMw6jd_kY5uLIK3K5L2T9cYgcj1nZUzbPpnUtBU9Gg", //要给这个人发送的模板ID
 //                 "雅雅", //咋称呼这个人
-//                 "山东省菏泽市曹县", //这个人的详细地址
+//                 "山东省 菏泽市曹县", //这个人的详细地址
 //                 "菏泽", //这个人在的城市
 //                 new BirthDay(2000,5,19,false,false) //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
 //                 //new newyear(2022,1,1,false,true)
@@ -94,31 +83,10 @@ public class AllConfig {
 //         ));
         
         
-        userList.add(getUser(
-                "oCH2_6iy8HNY0cp0xl46l8PQxuZI", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "-KMw6jd_kY5uLIK3K5L2T9cYgcj1nZUzbPpnUtBU9Gg", //要给这个人发送的模板ID
-                "丫丫", //咋称呼这个人
-                "山东济南市高新区", //这个人的详细地址
-                "济南", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
-        ));
+      
         
         
-        userList.add(getUser(
-                "oCH2_6i59qeCCBc9UHKe27-N4tsc", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "XvAkQexN0u1cAJkuK41AtBrMesjVikr-7TPQ0_mmU7Q", //要给这个人发送的模板ID
-                "明明", //咋称呼这个人
-                "山东济南市唐冶区", //这个人的详细地址
-                "济南", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
-        ));
-        
+   
         
         
 
